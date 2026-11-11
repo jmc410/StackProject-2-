@@ -21,6 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="stack.py" />
+    <Compile Include="postfix_evaluator.py" />
+    <Compile Include="main.py" />
+    <Compile Include="infix_converter.py" />
     <Compile Include="StackProject.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
